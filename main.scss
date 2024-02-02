@@ -1,0 +1,23 @@
+table, td, th {
+  // border: 1px solid #aaa;
+  border-collapse:collapse;
+}
+
+tr {
+  border-bottom: 1px solid #aaa;
+}
+td,th {
+  padding: 20px;
+}
+ tbody tr:last-child {
+border:none;
+}
+tr:hover {
+  background-color: #eee;
+}
+tr:nth-child(even){
+  background-color:#eee;
+}
+th {
+  background-color:#eee;
+}
